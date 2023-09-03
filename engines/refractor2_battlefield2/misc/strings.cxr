@@ -1,0 +1,48 @@
+
+
+// CXRP = "(_*_)PB"
+
+#include "../bf2/bf2_classes_names.h"
+
+
+//this file will be processed with a custom build rule (see it's proprieties):
+// first it will be preprocessed with the default cl.exe, only after with cxr.exe.
+// the result will be strings.cpp (the result from the preprocessor, a file called
+// strings.i, will be deleted).
+
+
+// the global objects
+const char* estr_class_manager		= _CXR(NAME_CLASSMANAGER);
+const char* estr_physics_system		= _CXR(NAME_PHYSICSSYSTEM);
+const char* estr_inputdevice_manager= _CXR(NAME_INPUTDEVICEMANAGER);
+const char* estr_controlmap_manager	= _CXR(NAME_CONTROLMAPMANAGER);
+const char* estr_object_manager		= _CXR(NAME_OBJECTMANAGER);
+const char* estr_template_manager	= _CXR(NAME_TEMPLATEMANAGER);
+const char* estr_player_manager		= _CXR(NAME_PLAYERMANAGER);
+const char* estr_hud_manager		= _CXR(NAME_HUDMANAGER);
+const char* estr_renderer			= _CXR(NAME_RENDERER);
+const char* estr_postproduction		= _CXR(NAME_POSTPRODUCTION);
+const char* estr_nametag_manager	= _CXR(NAME_NAMETAGMANAGER);
+
+
+
+// the cheats names
+const char* estr_minimap			= _CXR("Minimap");
+const char* estr_enemy_tags			= _CXR("Enemy_tags");
+const char* estr_weapons_unlock		= _CXR("Weapons_Unlock");
+const char* estr_view_dist			= _CXR("View_Dist");
+const char* estr_tags_dist			= _CXR("Tags_Dist");
+const char* estr_force_commander	= _CXR("Commander_Force");
+const char* estr_team_switch		= _CXR("Team_Switch");
+const char* estr_no_postproduction	= _CXR("No_PostProduction");
+const char* estr_chams				= _CXR("Chams");
+const char* estr_nofog				= _CXR("No_Fog");
+const char* estr_nosky				= _CXR("No_Sky");
+const char* estr_aimbot				= _CXR("Aimbot");
+const char* estr_screenshot			= _CXR("Screenshot");
+
+const char* estr_zoom				= _CXR("Zoom");
+//const char* estr_nostatic			= _CXR("No_Static");
+const char* estr_console_unlock		= _CXR("Console_Unlock");
+const char* estr_norecoil			= _CXR("No_Recoil");
+const char* estr_nodeviation		= _CXR("No_Deviation");
