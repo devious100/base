@@ -1,0 +1,80 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ctf", "ctf\ctf.vcproj", "{DEC7D947-D95A-4745-BB29-5F057BBAD342}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game\game.vcproj", "{C03025AF-CBC6-40AE-8EDD-98DAABCF8097}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quake2", "quake2.vcproj", "{798D3F6E-3266-457D-8A5E-4728D9135730}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DEC7D947-D95A-4745-BB29-5F057BBAD342} = {DEC7D947-D95A-4745-BB29-5F057BBAD342}
+		{C03025AF-CBC6-40AE-8EDD-98DAABCF8097} = {C03025AF-CBC6-40AE-8EDD-98DAABCF8097}
+		{D8A3AAFD-AC18-449F-B556-F3008B27CE01} = {D8A3AAFD-AC18-449F-B556-F3008B27CE01}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ref_gl", "ref_gl\ref_gl.vcproj", "{D8A3AAFD-AC18-449F-B556-F3008B27CE01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ref_soft", "ref_soft\ref_soft.vcproj", "{A23C810E-DBE3-46C9-A450-5F0A765786CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Radar", "Radar\Radar.vcproj", "{56AF49E2-50A3-4A3C-97FC-9BE4C977BADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Managed|Win32 = Debug Managed|Win32
+		Debug Native|Win32 = Debug Native|Win32
+		Release Managed|Win32 = Release Managed|Win32
+		Release Native|Win32 = Release Native|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC7D947-D95A-4745-BB29-5F057BBAD342}.Debug Managed|Win32.ActiveCfg = Debug Managed|Win32
+		{DEC7D947-D95A-4745-BB29-5F057BBAD342}.Debug Managed|Win32.Build.0 = Debug Managed|Win32
+		{DEC7D947-D95A-4745-BB29-5F057BBAD342}.Debug Native|Win32.ActiveCfg = Debug Native|Win32
+		{DEC7D947-D95A-4745-BB29-5F057BBAD342}.Debug Native|Win32.Build.0 = Debug Native|Win32
+		{DEC7D947-D95A-4745-BB29-5F057BBAD342}.Release Managed|Win32.ActiveCfg = Release Managed|Win32
+		{DEC7D947-D95A-4745-BB29-5F057BBAD342}.Release Managed|Win32.Build.0 = Release Managed|Win32
+		{DEC7D947-D95A-4745-BB29-5F057BBAD342}.Release Native|Win32.ActiveCfg = Release Native|Win32
+		{DEC7D947-D95A-4745-BB29-5F057BBAD342}.Release Native|Win32.Build.0 = Release Native|Win32
+		{C03025AF-CBC6-40AE-8EDD-98DAABCF8097}.Debug Managed|Win32.ActiveCfg = Debug Managed|Win32
+		{C03025AF-CBC6-40AE-8EDD-98DAABCF8097}.Debug Managed|Win32.Build.0 = Debug Managed|Win32
+		{C03025AF-CBC6-40AE-8EDD-98DAABCF8097}.Debug Native|Win32.ActiveCfg = Debug Native|Win32
+		{C03025AF-CBC6-40AE-8EDD-98DAABCF8097}.Debug Native|Win32.Build.0 = Debug Native|Win32
+		{C03025AF-CBC6-40AE-8EDD-98DAABCF8097}.Release Managed|Win32.ActiveCfg = Release Managed|Win32
+		{C03025AF-CBC6-40AE-8EDD-98DAABCF8097}.Release Managed|Win32.Build.0 = Release Managed|Win32
+		{C03025AF-CBC6-40AE-8EDD-98DAABCF8097}.Release Native|Win32.ActiveCfg = Release Native|Win32
+		{C03025AF-CBC6-40AE-8EDD-98DAABCF8097}.Release Native|Win32.Build.0 = Release Native|Win32
+		{798D3F6E-3266-457D-8A5E-4728D9135730}.Debug Managed|Win32.ActiveCfg = Debug Managed|Win32
+		{798D3F6E-3266-457D-8A5E-4728D9135730}.Debug Managed|Win32.Build.0 = Debug Managed|Win32
+		{798D3F6E-3266-457D-8A5E-4728D9135730}.Debug Native|Win32.ActiveCfg = Debug Native|Win32
+		{798D3F6E-3266-457D-8A5E-4728D9135730}.Debug Native|Win32.Build.0 = Debug Native|Win32
+		{798D3F6E-3266-457D-8A5E-4728D9135730}.Release Managed|Win32.ActiveCfg = Release Managed|Win32
+		{798D3F6E-3266-457D-8A5E-4728D9135730}.Release Managed|Win32.Build.0 = Release Managed|Win32
+		{798D3F6E-3266-457D-8A5E-4728D9135730}.Release Native|Win32.ActiveCfg = Release Native|Win32
+		{798D3F6E-3266-457D-8A5E-4728D9135730}.Release Native|Win32.Build.0 = Release Native|Win32
+		{D8A3AAFD-AC18-449F-B556-F3008B27CE01}.Debug Managed|Win32.ActiveCfg = Debug Managed|Win32
+		{D8A3AAFD-AC18-449F-B556-F3008B27CE01}.Debug Managed|Win32.Build.0 = Debug Managed|Win32
+		{D8A3AAFD-AC18-449F-B556-F3008B27CE01}.Debug Native|Win32.ActiveCfg = Debug Native|Win32
+		{D8A3AAFD-AC18-449F-B556-F3008B27CE01}.Debug Native|Win32.Build.0 = Debug Native|Win32
+		{D8A3AAFD-AC18-449F-B556-F3008B27CE01}.Release Managed|Win32.ActiveCfg = Release Managed|Win32
+		{D8A3AAFD-AC18-449F-B556-F3008B27CE01}.Release Managed|Win32.Build.0 = Release Managed|Win32
+		{D8A3AAFD-AC18-449F-B556-F3008B27CE01}.Release Native|Win32.ActiveCfg = Release Native|Win32
+		{D8A3AAFD-AC18-449F-B556-F3008B27CE01}.Release Native|Win32.Build.0 = Release Native|Win32
+		{A23C810E-DBE3-46C9-A450-5F0A765786CC}.Debug Managed|Win32.ActiveCfg = Debug Managed|Win32
+		{A23C810E-DBE3-46C9-A450-5F0A765786CC}.Debug Managed|Win32.Build.0 = Debug Managed|Win32
+		{A23C810E-DBE3-46C9-A450-5F0A765786CC}.Debug Native|Win32.ActiveCfg = Debug Native|Win32
+		{A23C810E-DBE3-46C9-A450-5F0A765786CC}.Debug Native|Win32.Build.0 = Debug Native|Win32
+		{A23C810E-DBE3-46C9-A450-5F0A765786CC}.Release Managed|Win32.ActiveCfg = Release Managed|Win32
+		{A23C810E-DBE3-46C9-A450-5F0A765786CC}.Release Managed|Win32.Build.0 = Release Managed|Win32
+		{A23C810E-DBE3-46C9-A450-5F0A765786CC}.Release Native|Win32.ActiveCfg = Release Native|Win32
+		{A23C810E-DBE3-46C9-A450-5F0A765786CC}.Release Native|Win32.Build.0 = Release Native|Win32
+		{56AF49E2-50A3-4A3C-97FC-9BE4C977BADE}.Debug Managed|Win32.ActiveCfg = Debug Managed|Win32
+		{56AF49E2-50A3-4A3C-97FC-9BE4C977BADE}.Debug Managed|Win32.Build.0 = Debug Managed|Win32
+		{56AF49E2-50A3-4A3C-97FC-9BE4C977BADE}.Debug Native|Win32.ActiveCfg = Debug Managed|Win32
+		{56AF49E2-50A3-4A3C-97FC-9BE4C977BADE}.Debug Native|Win32.Build.0 = Debug Managed|Win32
+		{56AF49E2-50A3-4A3C-97FC-9BE4C977BADE}.Release Managed|Win32.ActiveCfg = Release Managed|Win32
+		{56AF49E2-50A3-4A3C-97FC-9BE4C977BADE}.Release Managed|Win32.Build.0 = Release Managed|Win32
+		{56AF49E2-50A3-4A3C-97FC-9BE4C977BADE}.Release Native|Win32.ActiveCfg = Release Managed|Win32
+		{56AF49E2-50A3-4A3C-97FC-9BE4C977BADE}.Release Native|Win32.Build.0 = Release Managed|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

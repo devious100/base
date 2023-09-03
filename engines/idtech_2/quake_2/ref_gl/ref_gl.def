@@ -1,0 +1,5 @@
+EXPORTS
+	GetRefAPI
+	DllEnsureInit	PRIVATE
+	DllForceTerm	PRIVATE
+	

@@ -1,0 +1,4 @@
+v3.22 changes:
+
+-Ported Windows source to newer Managed C++ syntax.
+-Ported Windows source to compile in Visual Studio 2008.

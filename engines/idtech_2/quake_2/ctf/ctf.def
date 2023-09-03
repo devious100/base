@@ -1,0 +1,5 @@
+EXPORTS
+	GetGameAPI
+	DllEnsureInit	PRIVATE
+	DllForceTerm	PRIVATE
+	

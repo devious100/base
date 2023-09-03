@@ -1,0 +1,53 @@
+PAKLIB NEWS
+-----------
+
+Updated Feb 21 2004
+
+PAKLIB (c) 2004 Dominik Jall ( hackebeil20@web.de )
+
+
+NEW RELEASE: PAKLIB 0.3
+-----------------------
+
+Good news to anyone who is desperately waiting for a function that 
+loads a BMP from a PAK into a SDL_Surface.
+Until now, one had to use the extractPak() function to get the file 
+out of the PAK and save it to disk, then reload it using the SDL_LoadBMP()
+function. Today I have written a new function called loadBMP which loads
+a BMP from a PAK into a SDL_Surface directly. No longer do you need to
+go the lame and slow way of first reading it, writing it to disk, then reread
+it into a SDL_Surface and kill it after all. That was awful for sure !
+
+More news:
+
+I have introduced a new switch that enables you to either compile the
+PAKlib the original way, so you get a binary executable afterwards.
+(This is the original commandline-tool)
+Or you can compile the source as part of your program as a library.
+If you compile it the "commandline"-way you will not want SDL support since
+all you want to do is creating PAKs, reading them etc.
+You can tell your compiler to compile as lib into your own code by passing
+the 'USE_SDL' macro:
+
+gcc -DUSE_SDL myprog.c pak.c -o myprog `sdl-config --cflags --libs`
+
+(myprog.c is your own code)
+
+This way, pak.c does not create a main() function as it is assumed that
+it is provided by your own code.
+
+
+If you wanted to just create the commandline tool from the same source,
+you can simply compile the file the old way:
+
+gcc pak.c -o pak
+
+
+
+
+
+That's it for now. 
+I am working to get the same principle working for WAV-files.
+
+
+Any comments / critizing to hackebeil20@web.de

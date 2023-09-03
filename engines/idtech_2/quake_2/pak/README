@@ -1,0 +1,84 @@
+PAKLIB -- a C library for lovers of PAK files :-)
+
+PAKLIB is only two files, pak.h and pak.c. Just copy them
+to your project and make use of the functions that provide
+methods to easily handle .pak files.
+
+Files used:
+----------- stdio.h
+	    stdlib.h
+	    string.h
+
+Methods provided:
+-----------------   createPak - Creates a new pakfile
+		    extractPak - Extracts a file from within a pak
+		    insertPak - Vice versa, inserts a file in a pak
+		    openPak - Opens a pakfile for operation
+		    closePak - Vice versa, closes the pak
+		    checkPak - Does some checking for corrupted pak
+		    readFile - Reads a generic file into a buffer of char*
+		    inPak - Checks if a file exists in a pak
+		    loadDirSection - loads the filetree of a pak
+		    printDirTree - helper function, prints out the filetree
+
+Generic usage:
+--------------
+
+Usually the developer wants to create a new pak and then stuff all his files
+into it. The finished main program then opens the pakfile and read all stuff
+in it. 
+Creating a pak is easy: 
+ createPak("mypak.pak");
+
+This will create an empty new pak called "mypak.pak".
+
+Now before any action can be taken with the pak, you must open it and
+get a handle to it:
+
+pakfile *mypak = openPak("mypak.pak");
+
+Using this handle *mypak you can execute all the other functions:
+
+Inserting:
+	    insertPak("/home/myname/bitmap.bmp", "gfx/bitmaps/bitmap.bmp", mypak);
+
+Extracting:
+	    extractPak("gfx/bitmaps/bitmap.bmp", "/home/myname/bitmap.bmp", mypak);
+
+Checking:
+	    checkPak(mypak);
+
+
+If you want to know if there is a specific file within the pak:
+
+dirsection *myfile = inPak("gfx/bitmaps/bitmap.bmp", mypak);
+
+This will either return a pointer to the directory entry of the file
+or NULL if the file is not in the pak.
+You can access the information this way:
+myfile->filename    ==   something like "gfx/bitmaps/bitmap.bmp"
+myfile->file_position == address of the binary file data within the pakfile
+myfile->file_length == length of the file in bytes
+
+
+Explanation of the pakfile struct:
+----------------------------------
+*handle   ==   is a pointer to the filehandle (NULL if the file is not open)
+header    ==   gives access to the header of the pakfile
+  |
+  |
+   ->  head  ==  is always "PACK"
+       dir_offset  == address of the dirsection
+       dir_length  == length of the dirsection in bytes
+
+
+The source is GPL, that means you are free to use and redistribute / change.
+If you want to use the code in a commercial project, please contact me:
+ hackebeil20@web.de
+It would be nice if you mentioned me in the credits :-)
+
+If you have any suggestions on how to further improve the code and / or
+add new features to it, feel free to mail me.
+
+Dominik Jall
+09.03.2003
