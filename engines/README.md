@@ -1,1 +1,1 @@
-Devious100.com
+[More details](https://devious100.com/forum/base/engines)
