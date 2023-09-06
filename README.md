@@ -2,11 +2,11 @@
 
 # Base
 
-This is an online repsitory holding a collection of written works by software developers, reverse engineers and programming enthusiasts alike!
-
-The content of this base is listed below for your convenience, you may also [find a list of associated bulletin boards here](https://devious100.com/forum/base). Each folder within this repository will have its own README document, which should provide more details on specific items.
+This repsitory holds a collection of written works by software developers, reverse engineers and programming enthusiasts alike!
 
 ## Contents
+
+From source development kits to base hooks and boilerplate code, the content of this repository is listed below for your convenience;
 
 1. [Engines](https://github.com/devious100/base/engines)
     1. [Id Tech 2](https://github.com/devious100/base/engines/id-tech-2)
@@ -23,6 +23,10 @@ The content of this base is listed below for your convenience, you may also [fin
     6. [Unreal 2](https://github.com/devious100/base/engines/unreal-2)
         1. [Unreal Tournament](https://github.com/devious100/base/engines/unreal-2/unreal-tournament)
 2. [Tools](https://github.com/devious100/base/tools)
+
+Within each folder of this repository there is a a README document which should explain the contents in more detail.
+
+You may also [find a list of associated bulletin boards here](https://devious100.com/forum/base). 
 
 # Credit
 
