@@ -6,6 +6,6 @@ Formerly the "QUAKE 2 Engine", with pioneering innovation in 3D environments, a 
 
 | Cover | Title  | Source | Discuss |
 | ----- | ------ | ------ | ------- |
-| <img src="quake-2.jpg" alt="Quake 2" title="Quake 2" height="50" /> | Quake 2 | [View Code](https://github.com/devious100/base/engines/id-tech-2/quake-2) | [Read Thread](https://devious100.com/forum/base/engines/id-tech-2/quake-2) |
+| <img src="quake-2.jpg" alt="Quake 2" title="Quake 2" height="50" /> | Quake 2 | [View Code](https://github.com/devious100/base/engines/id-tech-2/quake-2) | [Visit Board](https://devious100.com/forum/base/engines/id-tech-2/quake-2) |
 
 You can leave comments, ask questions and find more information within [the associated board](https://devious100.com/forum/base/engines/id-tech-2) on [our online community](https://devious100.com) forum. We actively encourage your contribution!

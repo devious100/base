@@ -8,7 +8,7 @@
 *	     www.cheatersutopia.com        *
 \**************************************/
 
-#include "StdAfx.h"
+#include "stdafx.h"
 
 /* Weapons:
 
