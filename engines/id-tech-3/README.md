@@ -6,6 +6,6 @@ Previously called the "QUAKE 3 Engine" and one of the most successful licensed e
 
 | Cover | Title  | Source | Discuss |
 | ----- | ------ | ------ | ------- |
-| <img src="call-of-duty-2.jpg" alt="Call of Duty 2" title="Call of Duty 2" height="50" /> | Call of Duty 2 | [View Code](https://github.com/devious100/base/engines/id-tech-3/call-of-duty-2) | [Visit Board](https://devious100.com/forum/base/engines/id-tech-3/call-of-duty-2) |
+| <img src="call-of-duty-2.jpg" alt="Call of Duty 2" title="Call of Duty 2" height="50" /> | Call of Duty 2 | [View Code](https://github.com/devious100/base/tree/master/engines/id-tech-3/call-of-duty-2) | [Visit Board](https://devious100.com/forum/base/engines/id-tech-3/call-of-duty-2) |
 
 You can leave comments, ask questions and find more information within [the associated board](https://devious100.com/forum/base/engines/id-tech-3) on [our online community](https://devious100.com) forum. We actively encourage your contribution!
