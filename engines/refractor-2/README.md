@@ -6,7 +6,7 @@ The Refractor Engine, is a game engine designed by Stockholm-based studio Refrac
 
 | Cover | Title  | Source | Discuss |
 | ----- | ------ | ------ | ------- |
-| <img src="battlefield-2.jpg" alt="Battlefield 2" title="Battlefield 2" height="50" /> | Battlefield 2 | [View Code](https://github.com/devious100/base/engines/refractor-2/battlefield-2) | [Visit Board](https://devious100.com/forum/base/engines/refractor-2/battlefield-2) |
+| <img src="battlefield-2.jpg" alt="Battlefield 2" title="Battlefield 2" height="50" /> | Battlefield 2 | [View Code](https://github.com/devious100/base/tree/master/engines/refractor-2/battlefield-2) | [Visit Board](https://devious100.com/forum/base/engines/refractor-2/battlefield-2) |
 | <img src="battlefield-2142.jpg" alt="Battlefield 2142" title="Battlefield 2142" height="50" /> | Battlefield 2142 | [View Code](https://github.com/devious100/base/engines/refractor-2/battlefield-2142) | [Visit Board](https://devious100.com/forum/base/engines/refractor-2/battlefield-2142) |
 
 You can leave comments, ask questions and find more information within [the associated board](https://devious100.com/forum/base/engines/refractor-2) on [our online community](https://devious100.com) forum. We actively encourage your contribution!
