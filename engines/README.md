@@ -7,17 +7,17 @@ Visit [the associated board](https://devious100.com/forum/base/engines) to discu
 # Engines
 | Name | Game |
 | ---- | ---- |
-| [Id Tech 2](https://github.com/devious100/base/engines/id-tech-2) | [Quake 2](https://github.com/devious100/base/engines/id-tech-2/quake-2) |
-| [Unreal 2](https://github.com/devious100/base/engines/unreal-2) | [Unreal Tournament](https://github.com/devious100/base/engines/unreal-2/unreal-tournament) |
+| [Id Tech 2](https://github.com/devious100/base/tree/master/engines/id-tech-2) | [Quake 2](https://github.com/devious100/base/tree/master/engines/id-tech-2/quake-2) |
+| [Unreal 2](https://github.com/devious100/base/tree/master/engines/unreal-2) | [Unreal Tournament](https://github.com/devious100/base/tree/master/engines/unreal-2/unreal-tournament) |
 
 # Hooks
 | Engine | Game |
 | ------ | ---- |
-| [Id Tech 3](https://github.com/devious100/base/engines/id-tech-3) | [Call of Duty 2](https://github.com/devious100/base/engines/id-tech-3/call-of-duty-2) |
-| [LithTech](https://github.com/devious100/base/engines/id-tech-3) | [F.E.A.R](https://github.com/devious100/base/engines/id-tech-3/call-of-duty-2) |
-| [Refractor 2](https://github.com/devious100/base/engines/id-tech-3) | [Battlefield 2](https://github.com/devious100/base/engines/id-tech-3/call-of-duty-2) |
-| [Refractor 2](https://github.com/devious100/base/engines/id-tech-3) | [Battlefield 2142](https://github.com/devious100/base/engines/id-tech-3/call-of-duty-2) |
-| [Source](https://github.com/devious100/base/engines/id-tech-3) | [Counter-Strike: Source](https://github.com/devious100/base/engines/id-tech-3/call-of-duty-2) |
+| [Id Tech 3](https://github.com/devious100/base/tree/master/engines/id-tech-3) | [Call of Duty 2](https://github.com/devious100/base/tree/master/engines/id-tech-3/call-of-duty-2) |
+| [LithTech](https://github.com/devious100/base/tree/master/engines/id-tech-3) | [F.E.A.R](https://github.com/devious100/base/tree/master/engines/id-tech-3/call-of-duty-2) |
+| [Refractor 2](https://github.com/devious100/base/tree/master/engines/id-tech-3) | [Battlefield 2](https://github.com/devious100/base/tree/master/engines/id-tech-3/call-of-duty-2) |
+| [Refractor 2](https://github.com/devious100/base/tree/master/engines/id-tech-3) | [Battlefield 2142](https://github.com/devious100/base/tree/master/engines/id-tech-3/call-of-duty-2) |
+| [Source](https://github.com/devious100/base/tree/master/engines/id-tech-3) | [Counter-Strike: Source](https://github.com/devious100/base/tree/master/engines/id-tech-3/call-of-duty-2) |
 
 # Credits
 
