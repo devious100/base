@@ -34,3 +34,5 @@ All credit goes to the respective authors, named within the source material of t
 
 # Contribute
 You can leave comments, ask questions and find more information within [our online community forum](https://devious100.com). We actively encourage your contribution!
+
+![GitHub last commit](https://img.shields.io/github/last-commit/devious100/base?style=flat-square) ![GitHub contributors](https://img.shields.io/github/contributors/devious100/base?style=flat-square)
