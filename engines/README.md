@@ -13,6 +13,7 @@ Visit [the associated board](https://devious100.com/forum/base/engines) to discu
 # Hooks
 | Engine | Game |
 | ------ | ---- |
+| [Gold Source](https://github.com/devious100/base/tree/master/engines/gold-source) | [Counter-Strike 1.6](https://github.com/devious100/base/tree/master/engines/gold-source/counter-strike) |
 | [Id Tech 3](https://github.com/devious100/base/tree/master/engines/id-tech-3) | [Call of Duty 2](https://github.com/devious100/base/tree/master/engines/id-tech-3/call-of-duty-2) |
 | [LithTech](https://github.com/devious100/base/tree/master/engines/id-tech-3) | [F.E.A.R](https://github.com/devious100/base/tree/master/engines/id-tech-3/call-of-duty-2) |
 | [Refractor 2](https://github.com/devious100/base/tree/master/engines/id-tech-3) | [Battlefield 2](https://github.com/devious100/base/tree/master/engines/id-tech-3/call-of-duty-2) |
