@@ -1,6 +1,6 @@
 # Valve Corporation - Gold Source
 
-The Source engine is a 3D game engine developed by Valve Corporation. Its unique features include a large degree of modularity and flexibility, an artist-driven, shader-based renderer, accurate lip sync and facial expression technology, and a powerful, efficient and completely network-enabled physics system.
+GoldSrc, sometimes called the Half-Life Engine, is a proprietary game engine developed by Valve. At its core, GoldSrc is a heavily modified version of id Software's Quake engine.
 
 # Games Resource
 
