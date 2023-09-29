@@ -1,6 +1,6 @@
 # Valve Corporation - Gold Source
 
-GoldSrc, sometimes called the Half-Life Engine, is a proprietary game engine developed by Valve. At its core, GoldSrc is a heavily modified version of id Software's Quake engine.
+GoldSrc (Gold Source), sometimes called the Half-Life Engine, is a proprietary game engine developed by Valve. At its core, GoldSrc is a heavily modified version of id Software's Quake engine.
 
 # Games Resource
 
